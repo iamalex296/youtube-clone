@@ -1,4 +1,4 @@
-import firebase from 'firebasse/app';
+import firebase from 'firebase/app';
 
 import 'firebase/auth';
 
@@ -8,7 +8,7 @@ const firebaseConfig = {
   projectId: "cloneyoutub-296",
   storageBucket: "cloneyoutub-296.appspot.com",
   messagingSenderId: "399085711981",
-  appId: "1:399085711981:web:571f19717332c0cdfb4564"
+  appId: "1:399085711981:web:571f19717332c0cdfb4564",
 };
 
 firebase.initializeApp(firebaseConfig)
