@@ -1,5 +1,5 @@
 import React from 'react';
-import './loginScreen.scss';
+import './_loginScreen.scss';
 
 const LoginScreen = () => {
   return(
@@ -11,7 +11,7 @@ const LoginScreen = () => {
         <button>
           Login With Google
         </button>
-        <p>Youtube Project</p>
+        <p>This is my Youtube Project</p>
       </div>
     </div>
   )
